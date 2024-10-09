@@ -12,6 +12,7 @@
     "start": "storybook dev -p 9009",
     "build-storybook": "storybook build",
     "prepare": "husky install",
+    "prepack": "npm run build",
     "chromatic": "npx chromatic --project-token=a7098a56897c --auto-accept-changes"
   },
   "type": "module",
@@ -52,7 +53,8 @@
   "homepage": "https://github.com/reaviz/reagraph#readme",
   "dependencies": {
     "@react-spring/three": "9.6.1",
-    "@react-three/fiber": "8.13.5",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
     "@use-gesture/react": "^10.3.1",
     "camera-controls": "^2.8.3",
     "classnames": "^2.5.1",
@@ -68,6 +70,7 @@
     "graphology-layout-noverlap": "^0.4.2",
     "graphology-metrics": "^2.1.0",
     "graphology-shortest-path": "^2.0.2",
+    "graphology-types": "^0.24.7",
     "hold-event": "^0.2.0",
     "reakeys": "^2.0.3",
     "three": "^0.154.0",
@@ -104,7 +107,6 @@
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.8.0",
-    "graphology-types": "^0.24.7",
     "husky": "^9.0.11",
     "jsdom": "^24.0.0",
     "lint-staged": "^15.2.2",

@@ -7,7 +7,7 @@ import { getLayoutCenter } from '../utils/layout';
 import { InternalGraphNode } from '../types';
 import { useStore } from '../store';
 import { isNodeInView, getDegreesToClosest2dAxis } from './utils';
-import { LayoutTypes } from 'layout/types';
+import { LayoutTypes } from '../layout/types';
 
 const PADDING = 50;
 
